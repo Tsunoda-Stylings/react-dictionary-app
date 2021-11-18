@@ -5,10 +5,11 @@ body {
 .App {
   background-image: url("/src/logo.jpg");
   background-position: center;
-  position: absolute;
+  position: relative;
+  right: 120px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 110vw;
+  width: 100vw;
   height: 100vh;
   margin: 0 auto;
 }
@@ -22,7 +23,7 @@ body {
 }
 
 .footer {
-  position: relative;
-  top: 600px;
+  position: absolute;
+  top: 650px;
   left: 800px;
 }

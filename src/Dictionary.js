@@ -29,7 +29,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input
           type="search"
-          placeholder="Enter a word"
+          placeholder="Word of the day"
           onChange={handleKeywordChange}
         />
         <button type="button" class="btn btn-dark">
