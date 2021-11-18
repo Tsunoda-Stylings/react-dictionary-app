@@ -12,13 +12,10 @@ body {
   height: 100vh;
   margin: 0 auto;
 }
-.hero-title {
-  font-weight: 900;
+.title {
+  font-family: "Playfair Display", serif;
   margin-bottom: 0;
-  color: white !important;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke: 2.5px black;
   position: relative;
   top: 30px;
-  left: 350px;
+  left: 330px;
 }

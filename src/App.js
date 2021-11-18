@@ -1,13 +1,12 @@
-
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-          <h1 className="hero-title">Your Word Of The Day</h1>
-        </div>
+        <h1 className="title">What would you like to know?</h1>
       </div>
+    </div>
   );
 }
 
