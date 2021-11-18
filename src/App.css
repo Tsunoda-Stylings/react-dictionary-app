@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .App {
   background-image: url("/src/logo.jpg");
   background-position: center;
@@ -15,6 +19,6 @@
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 2.5px black;
   position: relative;
-  top: 80px;
-  left: 500px;
+  top: 30px;
+  left: 350px;
 }
