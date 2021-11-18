@@ -8,7 +8,7 @@ body {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 110vw;
   height: 100vh;
   margin: 0 auto;
 }
@@ -16,5 +16,13 @@ body {
   font-family: "Playfair Display", serif;
   margin-bottom: 0;
   position: relative;
-  
+  top: 20px;
+  left: 220px;
+  font-size: 30px;
+}
+
+.footer {
+  position: relative;
+  top: 600px;
+  left: 800px;
 }
