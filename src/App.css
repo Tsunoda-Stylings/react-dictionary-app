@@ -1,17 +1,10 @@
-.hero-logo {
-  max-width: 1550px;
-  margin: 0 auto;
-
-  background-image: url("/src/logo.jpg")!important; 
-  background-repeat: no-repeat !important; 
-  background-position: center;
-  background-size: 100% 100%;
-}
-
 .hero-title {
   font-weight: 900;
   margin-bottom: 0;
   color: white !important;
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 2.5px black;
+  position: relative;
+  top: 80px;
+  left: 500px;
 }

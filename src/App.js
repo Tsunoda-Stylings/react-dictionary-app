@@ -1,14 +1,22 @@
-import logo from "./logo.jpg";
+import background from "./logo.jpg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="hero">
-        <header className="App-header">
-          <img src={logo} className="hero-logo" alt="logo" />
+      <div className="container">
+        <div
+          style={{
+            backgroundImage: `url(${background})`,
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            width: "100%",
+            height: "750px",
+          }}
+        >
           <h1 className="hero-title">Dictionary</h1>
-        </header>
+        </div>
       </div>
     </div>
   );
