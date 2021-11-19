@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetic.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 

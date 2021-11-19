@@ -1,5 +1,25 @@
 .Dictionary {
   position: relative;
-  top: 40px;
-  left: 220px;
+  top: 30px;
+  left: 175px;
+  max-width: 487px;
+}
+
+.Dictionary section {
+  background: #dcdddf;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px (0 0 0 / 10%);
+  margin: 10px 0;
+  max-width: 1100px;
+}
+
+.Dictionary input {
+  width: 55%;
+  border-radius: 6px;
+}
+
+.Dictionary .hint {
+  font-size: 13px;
+  margin-top: 5px;
 }

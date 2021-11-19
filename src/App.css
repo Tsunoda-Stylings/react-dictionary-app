@@ -9,7 +9,7 @@ body {
   right: 120px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 110vw;
   height: 100vh;
   margin: 0 auto;
 }
@@ -24,6 +24,12 @@ body {
 
 .footer {
   position: absolute;
-  top: 650px;
+  top: 662px;
   left: 800px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #4510cc;
+  font-size: 15px;
 }

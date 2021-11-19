@@ -9,7 +9,33 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="footer">Coded by Jasmine Tsunoda</footer>
+        <footer className="footer">
+          Coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/jasmine-tsunoda89/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Jasmine Tsunoda
+          </a>
+          &nbsp;using&nbsp;
+          <a
+            href="https://github.com/Tsunoda-Stylings/react-dictionary-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open-Source Code
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://tsunodastylings-reactdictionary.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+          .
+        </footer>
       </div>
     </div>
   );
