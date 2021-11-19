@@ -18,3 +18,13 @@
   height: 40px;
   margin-right: 5px;
 }
+
+@media (max-width:800px){
+.Dictionary input{
+  width: 40%;
+}
+.Dictionary {
+  margin-left: -10px;
+  max-width: 60%;
+}
+}

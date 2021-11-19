@@ -1,5 +1,5 @@
 .Meaning {
-   width: 60vh;
+  width: 60vw;
 }
 
 .Meaning h3 {
@@ -11,4 +11,11 @@
 .Meaning .example {
   color: #70757a;
   font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .Meaning {
+    width: 80vw;
+    font-size: 26px;
+  }
 }
