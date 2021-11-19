@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1 className="title">What would you like to know?</h1>
+        <h1 className="titlesecond">The Photos Of The Day</h1>
         <main>
           <Dictionary defaultKeyword="hello" />
         </main>

@@ -49,24 +49,28 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-          <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              placeholder="Word of the day"
-              onChange={handleKeywordChange}
-              defaultValue={props.defaultKeyword}
-              className="search"
-            />
-            <button type="submit" class="btn btn-dark">
-              <FontAwesomeIcon icon={faSearch} />
-            </button>
-          </form>
-          <div className="hint">
-            Suggested keywords: sunset, wine, yoga, forest....
-          </div>
-          <hr/>
-        <Results results={results} />
-        <Photos photos={photos} />
+        <form onSubmit={handleSubmit}>
+          <input
+            type="search"
+            placeholder="Word of the day"
+            onChange={handleKeywordChange}
+            defaultValue={props.defaultKeyword}
+            className="search"
+          />
+          <button type="submit" class="btn btn-dark">
+            <FontAwesomeIcon icon={faSearch} />
+          </button>
+        </form>
+        <div className="hint">
+          Suggested keywords: sunset, wine, yoga, forest....
+        </div>
+        <hr />
+        <div className="container">
+        <div className="row">
+          <div className="col"><Results results={results} /></div>
+          <div className="col"><Photos photos={photos}  /></div>
+        </div>
+      </div>
       </div>
     );
   } else {

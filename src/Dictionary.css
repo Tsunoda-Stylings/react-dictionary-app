@@ -1,20 +1,20 @@
 .Dictionary {
-  position: relative;
-  top: 30px;
-  left: 175px;
-  max-width: 487px;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 
 .Dictionary input {
-  width: 55%;
+  width: 25%;
   border-radius: 6px;
+  margin-left: 50px;
 }
 
 .Dictionary .hint {
   font-size: 13px;
   margin-top: 5px;
+  margin-left: 50px;
 }
-.search{
+.search {
   height: 40px;
   margin-right: 5px;
 }

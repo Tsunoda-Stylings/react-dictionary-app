@@ -1,31 +1,29 @@
 body {
-  overflow: hidden;
-}
-
-.App {
   background-image: url("/src/logo.jpg");
   background-position: center;
-  position: relative;
-  right: 120px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 110vw;
-  height: 100vh;
-  margin: 0 auto;
+  height: 150vh;
+  
 }
+
 .title {
   font-family: "Playfair Display", serif;
   margin-bottom: 0;
-  position: relative;
-  top: 20px;
-  left: 220px;
   font-size: 30px;
+  margin-left: 160px;
+  padding-top: 90px;
+}
+
+.titlesecond{
+  margin-left: 620px;
 }
 
 .footer {
   position: absolute;
-  top: 662px;
-  left: 900px;
+  top: 862px;
+  left: 800px;
 }
 
 .footer a {
