@@ -7,7 +7,7 @@ import Photos from "./Photos";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
-  let [keyword, setKeyword] = useState("");
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
@@ -49,22 +49,22 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
               placeholder="Word of the day"
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
+              className="search"
             />
-            <button type="button" class="btn btn-dark">
+            <button type="submit" class="btn btn-dark">
               <FontAwesomeIcon icon={faSearch} />
             </button>
           </form>
           <div className="hint">
             Suggested keywords: sunset, wine, yoga, forest....
           </div>
-        </section>
+          <hr/>
         <Results results={results} />
         <Photos photos={photos} />
       </div>
